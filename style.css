@@ -1,0 +1,173 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.wrapper {
+    background-image: url('./img/Rectangle\ 3.png');
+    height: 723px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 36px 0 23px 0 !important;
+}
+
+.nav-link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.mart {
+    margin-top: 42px;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 6px;
+    resize: none;
+    padding: 12px 12px 0 12px;
+    width: 100%;
+    height: 97px;
+    margin-top: 24px;
+}
+
+.form-heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.plan {
+    padding: 100px 0;
+}
+
+.send {
+    padding: 11px 152px 12px 152px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    color: #FFFFFF;
+    background: #15594D;
+    backdrop-filter: blur(10px);
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 6px;
+}
+
+.why {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    color: #000000;
+    margin-bottom: 100px;
+}
+
+.plan__card {
+    padding: 20px 13px 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #F8F6F4;
+    border-radius: 18px;
+    height: 317px;
+}
+
+.plan__card h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.plan__card p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    /* or 26px */
+    text-align: center;
+    color: #564E4E;
+}
+
+.vector-img {
+    display: flex;
+    justify-content: center;
+}
+
+.install {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+    color: #000000;
+}
+
+.numbers {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 200%;
+    /* identical to box height, or 128px */
+    text-align: center;
+    color: #9C5642;
+}
+
+.parag {
+    font-family: 'Tenor Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 133% */
+    text-transform: capitalize;
+    color: #564E4E;
+}
+
+.living-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vector-2 {
+    padding: 100px 484px 80px 484px;
+}
