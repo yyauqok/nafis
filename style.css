@@ -83,11 +83,13 @@
     font-family: 'Tenor Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 64px;
+    font-size: 40px;
     line-height: 75px;
-    /* identical to box height */
     color: #000000;
-    margin-bottom: 100px;
+}
+
+.container-imgs {
+    padding: 80px 80px 100px 180px;
 }
 
 .plan__card {
@@ -107,7 +109,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    /* or 122% */
     text-align: center;
     color: #000000;
     margin-top: 15px;
@@ -120,7 +121,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 187%;
-    /* or 26px */
     text-align: center;
     color: #564E4E;
 }
@@ -136,7 +136,6 @@
     font-weight: 400;
     font-size: 40px;
     line-height: 60px;
-    /* or 150% */
     color: #000000;
 }
 
@@ -146,7 +145,6 @@
     font-weight: 400;
     font-size: 64px;
     line-height: 200%;
-    /* identical to box height, or 128px */
     text-align: center;
     color: #9C5642;
 }
@@ -157,7 +155,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /* or 133% */
     text-transform: capitalize;
     color: #564E4E;
 }
@@ -170,4 +167,59 @@
 
 .vector-2 {
     padding: 100px 484px 80px 484px;
+}
+
+.contacts-p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+    padding: 78px 199px 134px 197px;
+}
+
+.important__f {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26.2044px;
+    line-height: 32px;
+    color: #15594D;
+    opacity: 0.5;
+}
+
+.other__f {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+    padding-bottom: 80px;
+}
+
+.footer-col {
+    display: block;
+}
+
+.important__f2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    color: #000000;
+    padding-bottom: 24px;
+}
+
+.other__f2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
 }
