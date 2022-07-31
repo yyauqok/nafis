@@ -1,11 +1,11 @@
 * {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Tenor Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Tenor Sans", sans-serif;
 }
 
 .wrapper {
-    background-image: url('./img/Rectangle\ 3.png');
-    height: 723px;
+    background-image: url("./img/Rectangle\ 3.png");
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,13 +16,18 @@
 }
 
 .nav-link {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
     text-decoration-line: underline;
-    color: #FFFFFF;
+    color: #ffffff;
+}
+
+.nav-main-text {
+    font-size: 80px;
+    color: #ffffff;
 }
 
 .mart {
@@ -31,7 +36,7 @@
 
 .form {
     background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     backdrop-filter: blur(10px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 16px;
@@ -40,7 +45,7 @@
 
 .textarea {
     background: rgba(255, 255, 255, 0.5);
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     backdrop-filter: blur(10px);
     /* Note: backdrop-filter has minimal browser support */
     border-radius: 6px;
@@ -52,12 +57,12 @@
 }
 
 .form-heading {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .plan {
@@ -66,19 +71,19 @@
 
 .send {
     padding: 11px 152px 12px 152px;
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
-    background: #15594D;
+    color: #ffffff;
+    background: #15594d;
     backdrop-filter: blur(10px);
     border-radius: 6px;
 }
 
 .why {
-    font-family: 'Tenor Sans';
+    font-family: "Tenor Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -87,7 +92,7 @@
 }
 
 .container-imgs {
-    padding: 80px 80px 100px 180px;
+    margin: auto;
 }
 
 .plan__card {
@@ -96,13 +101,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #F8F6F4;
+    background: #f8f6f4;
     border-radius: 18px;
     height: 317px;
 }
 
 .plan__card h2 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -114,13 +119,13 @@
 }
 
 .plan__card p {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 187%;
     text-align: center;
-    color: #564E4E;
+    color: #564e4e;
 }
 
 .vector-img {
@@ -129,7 +134,7 @@
 }
 
 .install {
-    font-family: 'Tenor Sans';
+    font-family: "Tenor Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
@@ -138,23 +143,23 @@
 }
 
 .numbers {
-    font-family: 'Tenor Sans';
+    font-family: "Tenor Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 64px;
     line-height: 200%;
     text-align: center;
-    color: #9C5642;
+    color: #9c5642;
 }
 
 .parag {
-    font-family: 'Tenor Sans';
+    font-family: "Tenor Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     text-transform: capitalize;
-    color: #564E4E;
+    color: #564e4e;
 }
 
 .living-content {
@@ -164,35 +169,35 @@
 }
 
 .vector-2 {
-    padding: 100px 484px 80px 484px;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .contacts-p {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 20px;
     line-height: 66px;
     text-align: center;
     color: #000000;
-    padding: 78px 199px 134px 197px;
 }
 
 .important__f {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 600;
-    font-size: 26.2044px;
+    font-size: 20px;
     line-height: 32px;
-    color: #15594D;
+    color: #15594d;
     opacity: 0.5;
 }
 
 .other__f {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 39px;
     color: #000000;
     padding-bottom: 80px;
@@ -203,7 +208,7 @@
 }
 
 .important__f2 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 500;
     font-size: 22px;
@@ -214,7 +219,7 @@
 }
 
 .other__f2 {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -229,7 +234,7 @@
 }
 
 .texttt-f {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -248,4 +253,32 @@
     display: flex;
     flex-direction: column;
     gap: 18px;
+}
+
+@media (max-width: 700px) {
+    .navbar-collapse {
+        background: linear-gradient( 180deg, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+}
+
+.nav-main-text {
+    font-size: 50px;
+}
+
+.mart .form .send {
+    padding: 11px 100px 17px 100px;
+}
+
+.plan__card {
+    margin-top: 20px;
+}
+
+.feauture-img {
+    width: 100%;
+}
+
+.portfolio-img {
+    width: 350px;
+    height: 450px;
+    margin-top: 20px;
 }
